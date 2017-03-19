@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <div id="consider">
+    	<div id="calculator">
+    	<div id="welcome">
+    		<p id="p1">欢迎使用!</p>
+    		<p id="p2">请点击HOME键</p>
+    	</div>
+    	   <div id="header">
+    	   	  <div id="sensor">
+    	   	  </div>
+    	   	  <div id="camera"></div>
+    	   	  <div id="loudspeaker"></div>
+    	   </div>
+    	   <div id="bordershow">
+    	   <div id="screen">
+    	       <div id="top">
+    	       	  <div id="signal">中国移动 4G</div>
+    	       	  <div id="time"></div>
+    	       	  <div id="electric">100%</div>
+    	       	  <div id="electric_pic"></div>
+    	       </div>
+	    	   <div id="result">
+	    	   	<input type="text" id="calculator_result" value="0" readonly="true" oninput="maxlen()">
+	    	   </div>
+	    		<div id="calculator_btn">
+	    			<ul>
+	    				<li onclick="cleanscreen()" style="background: #aaa;">C</li>
+	    				<li style="background: #aaa;" onclick="del()">←</li>
+	    				<li style="background: #aaa;" onclick="persent()">%</li>
+	    				<li style="background: orange;color: #fff;" onclick="divide()">÷</li>
+
+	    				<li onclick="command(7)">7</li>
+	    				<li onclick="command(8)">8</li>
+	    				<li onclick="command(9)">9</li>
+	    				<li style="background: orange;color: #fff" onclick="times()">×</li>
+
+	    				<li onclick="command(4)">4</li>
+	    				<li onclick="command(5)">5</li>
+	    				<li onclick="command(6)">6</li>
+	    				<li style="background: orange;color: #fff" onclick="minus()">-</li>
+
+	    				<li onclick="command(1)">1</li>
+	    				<li onclick="command(2)">2</li>
+	    				<li onclick="command(3)">3</li>
+	    				<li style="background: orange;color: #fff" onclick="plus()">+</li>
+
+	    				<li onclick="command(0)">0</li>
+	    				<li onclick="oppose()">+/-</li>
+	    				<li onclick="dot()">.</li>
+	    				<li style="background: orange;color: #fff" onclick="equal()">=</li>
+	    			</ul>
+	    		</div>
+    		</div>
+    	   </div>
+
+    	   <div id="footer">
+    	   	<div id="home"></div>
+    	   </div>
+    	</div>
+    </div>
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="calculator.js"></script>
+</html>

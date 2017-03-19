@@ -1,0 +1,162 @@
+﻿*{
+	margin:0px;
+	padding:0px;
+}
+#consider{
+	width: 100%;
+	height: 560px;
+}
+#calculator{
+	width: 300px;
+	height: 600px;
+	border: 1px solid #ccc;
+	margin:0 auto;
+	border-radius: 25px;
+	margin-top: 20px;
+	position:relative;
+	box-shadow: 1px 1px 1px 1px  #ccc;
+}
+#welcome{
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	top: 200px;
+	background: #000;
+	color: #fff;
+}
+#welcome #p1{
+	margin-left: 68px;
+	margin-top: 50px;
+}
+#welcome #p2{
+	margin-left: 52px;
+	margin-top: 10px;
+}
+#header {
+	width: 300px;
+	height: 60px;
+	position: relative;
+}
+#header #sensor{
+	width: 8px;
+	height: 8px;
+	background: #000;
+	border: 1px solid #000;
+	border-radius: 100%;
+	position: absolute;
+	left:50%;
+	margin-left: -4px;
+	top: 10px;
+}
+#header #camera{
+	width: 12px;
+	height: 12px;
+	background: #000;
+	border: 1px solid #000;
+	border-radius: 100%;
+	position: absolute;
+	left: 90px;
+	top: 27px;
+}
+#header #loudspeaker{
+	width: 60px;
+	height: 3px;
+	background: #000;
+	border: 1px solid #000;
+	border-radius: 5px;
+	position: absolute;
+	left:50%;
+	margin-left: -30px;
+	top: 32px;
+}
+#bordershow{
+	width: 288px;
+	height: 476px;
+	border:1px solid #ccc;
+	margin:0 auto;
+	background: #000;
+}
+#screen{
+	width: 288px;
+	height: 476px;
+	margin:0 auto;
+	display: none;
+}
+#screen #top{
+	font-size: xx-small;
+	width: 288px;
+	height: 14px;
+	position: relative;
+	color: #fff;
+	background: #000;
+
+}
+#screen #signal{
+	position: absolute;
+	left: 0;
+}
+#screen #time{
+	position: absolute;
+	left: 50%;
+	margin-left: -16px;
+}
+#screen #electric{
+	position: absolute;
+	right: 20px;
+}
+#screen #electric_pic{
+   width: 14px;
+   height: 10px;
+   background: #fff;
+   position: absolute;
+   top: 50%;
+   margin-top: -5px;
+   right: 2px;
+}
+#screen #result{
+	width: 288px;
+	height: 100px;
+	color: #fff;
+	background: #000;
+}
+#result input{
+	width: 288px;
+	height: 60px;
+	margin-top: 40px;
+	font-size:30px;
+	border: none;
+	background: #000;
+	color: #fff;
+	text-align: right;
+}
+#calculator_btn{
+	width: 288px;
+	height: 400px;
+}
+#calculator_btn ul{}
+#calculator_btn ul li{
+	float: left;
+	list-style: none;
+	width: 70px;
+	height: 70px;
+	border: 1px solid #ccc;
+	font-size: 24px;
+	line-height: 70px;
+	text-align: center;
+	cursor: pointer;
+}
+#footer{
+	width: 288px;
+	height: 50px;
+    margin:4px auto;
+}
+#footer #home{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000;
+	border-radius: 100%;
+	margin:0 auto;
+	cursor: pointer;
+}
